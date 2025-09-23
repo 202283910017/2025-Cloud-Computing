@@ -1,0 +1,42 @@
+Please answer the following questions and submit it to your git repo with name"In-Class Assessment 1
+
+(a)
+The three primary cloud service models are:
+1.Infrastructure as a Service (IaaS):
+IaaS provides virtualized computing resources over the internet, including servers, storage, and networking. Developers can manage operating systems and applications while avoiding the cost and complexity of physical hardware.
+Example in software development: A team uses Amazon EC2 to quickly provision virtual machines for running build servers and test environments.
+
+2.Platform as a Service (PaaS):
+PaaS provides a platform with tools and services that allow developers to build, test, and deploy applications without managing the underlying infrastructure.
+Example in software development: A developer uses Heroku or Google App Engine to deploy a web application directly by pushing code, without worrying about server configuration.
+
+3.Software as a Service (SaaS):
+SaaS delivers ready-to-use software applications over the internet. Users access applications through a browser without managing installation or infrastructure.
+Example in software development: A team uses GitHub or GitLab as SaaS tools for version control and collaboration during the software lifecycle.
+
+(b)
+Docker is an open-source platform that enables developers to package applications and their dependencies into lightweight, portable containers. Containers ensure consistency across different environments.
+
+Scenario:
+Suppose a development team is building a microservices-based web application. Each microservice has its own dependencies and runtime environment. Using Docker, the team can package each microservice in its own container and run them consistently across development, testing, and production.
+
+Contribution to development and deployment:
+1.Ensures consistency between environments (no more “works on my machine” issues).
+2.Simplifies dependency management by packaging all required libraries and tools with the application.
+3.Enables rapid deployment and scaling using container orchestration tools such as Kubernetes or Docker Compose.
+
+
+(c)
+Command:
+docker run -it --rm \
+  -p 5678:5678 \
+  -v ~/.n8n:/home/node/.n8n \
+  n8nio/n8n
+
+Explanation:
+docker run: Start a new container.
+-it: Run in interactive mode with terminal attached.
+--rm: Automatically remove the container after it stops.
+-p 5678:5678: Map port 5678 from the container to the host machine.
+-v ~/.n8n:/home/node/.n8n: Mount a local directory to persist data.
+n8nio/n8n: The official n8n Docker image.

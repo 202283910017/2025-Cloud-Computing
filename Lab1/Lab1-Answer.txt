@@ -1,0 +1,55 @@
+2. The cloud is almost everywhere in our lives now. What are the fundamental reasons behind its success? Name three pros and three cons of cloud.
+The fundamental reasons behind the success of cloud computing include scalability, cost efficiency, and accessibility.
+Pros:
+	1.Scalability
+	2.Cost efficiency (pay-as-you-go)
+	3.Accessibility (available anywhere with internet)
+Cons:
+	4.Security concerns
+	5.Downtime or reliability issues
+	6.Data privacy risks
+
+
+
+3. What is the primary function of a hypervisor in virtualization?
+The primary function of a hypervisor is to create, manage, and run virtual machines by separating the physical hardware from the operating systems.
+
+
+
+4. What is a virtual machine (VM)?
+A virtual machine (VM) is a software-based emulation of a physical computer that runs an operating system and applications independently.
+
+
+
+5. What are the benefits of using virtual machines?
+	1.Better hardware utilization
+	2.Easy backup and recovery
+	3.Isolation and security
+	4.Portability
+	5.Cost efficiency
+
+
+6. List five use cases of virtual machines.
+	1.Software testing and development
+	2.Running multiple OS environments
+	3.Server consolidation
+	4.Disaster recovery
+	5.Cloud computing infrastructure
+
+
+7. In virtualization, what is the guest operating system?
+b) The operating system installed on a virtual machine.
+
+
+
+8. What does virtual machine isolation mean?
+c) Virtual machines run independently and are isolated from each other and the host system.
+
+
+9. What is the benefit of virtual machine portability?
+c) It allows virtual machines to be moved between different physical machines with compatible hypervisors.
+
+
+
+10. What is the purpose of cloning a virtual machine?
+The purpose of cloning a virtual machine is to create an exact copy of an existing VM for testing, backup, or deployment purposes.
